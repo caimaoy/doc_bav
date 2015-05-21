@@ -1,0 +1,39 @@
+{
+    "author": "caimaoy <chenyue3721@qq.com>", 
+    "description": "This is a description", 
+    "extension": null, 
+    "generator": "site", 
+    "isbn": null, 
+    "links": {
+        "sharing": {
+            "all": null, 
+            "facebook": null, 
+            "google": null, 
+            "twitter": null, 
+            "weibo": "caimaoy"
+        }, 
+        "sidebar": {
+            "For More": "http://caimaoy.github.io"
+        }
+    }, 
+    "output": null, 
+    "pdf": {
+        "fontSize": 12, 
+        "margin": {
+            "bottom": 36, 
+            "left": 62, 
+            "right": 62, 
+            "top": 36
+        }, 
+        "pageNumbers": false, 
+        "paperSize": "a4"
+    }, 
+    "title": "Title", 
+    "variables": {},
+    "plugins": ["disqus"],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "bavdoc"
+        }
+    }  
+}

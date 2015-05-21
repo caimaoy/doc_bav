@@ -1,0 +1,339 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+        <title>小工具升级测试方法 | Title</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.0.1">
+        <meta name="author" content="caimaoy &lt;chenyue3721@qq.com&gt;">
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    
+    <link rel="prev" href="./模块升级测试.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+    
+
+        
+    <div class="book" data-level="3" data-basepath="." data-revision="Thu May 21 2015 11:19:13 GMT+0800 (中国标准时间)">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+            
+            <li>
+                <a href="http://caimaoy.github.io" target="blank" class="custom-link">For More</a>
+            </li>
+        
+        
+
+        
+        <li class="divider"></li>
+        
+
+        
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="Checklist升级测试方法.html">
+            
+                
+                    <a href="./Checklist升级测试方法.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Checklist升级测试方法
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="模块升级测试.html">
+            
+                
+                    <a href="./模块升级测试.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        模块升级测试
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="3" data-path="小工具升级测试方法.html">
+            
+                
+                    <a href="./小工具升级测试方法.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        小工具升级测试方法
+                    </a>
+                
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                Published with GitBook
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    Share on Twitter
+                </button>
+                <button type="button" data-sharing="google-plus" class="button">
+                    Share on Google
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    Share on Facebook
+                </button>
+                <button type="button" data-sharing="weibo" class="button">
+                    Share on Weibo
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    Share on Instapaper
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >Title</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="%E5%B0%8F%E5%B7%A5%E5%85%B7%E5%8D%87%E7%BA%A7%E6%B5%8B%E8%AF%95%E6%96%B9%E6%B3%95">&#x5C0F;&#x5DE5;&#x5177;&#x5347;&#x7EA7;&#x6D4B;&#x8BD5;&#x65B9;&#x6CD5;</h1>
+<h2 id="%E5%B0%8F%E5%B7%A5%E5%85%B7%E5%8D%87%E7%BA%A7%E6%B5%8B%E8%AF%95%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2">&#x5C0F;&#x5DE5;&#x5177;&#x5347;&#x7EA7;&#x6D4B;&#x8BD5;&#x670D;&#x52A1;&#x5668;&#x90E8;&#x7F72;</h2>
+<h3 id="%E5%A6%82%E6%9E%9C%E5%B0%8F%E5%B7%A5%E5%85%B7%E9%93%BE%E6%8E%A5%E6%98%AFtoolsserver-zip%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5%EF%BC%8C%E5%A6%82%EF%BC%9A">&#x5982;&#x679C;&#x5C0F;&#x5DE5;&#x5177;&#x94FE;&#x63A5;&#x662F;ToolsServer.zip&#x4E0B;&#x8F7D;&#x94FE;&#x63A5;&#xFF0C;&#x5982;&#xFF1A;</h3>
+<ul>
+<li>ftp://newns:a1b2c3.@ftp.jenkins.baidu.com:8557/bav_advtools_release_cluster/127/output/ToolsServer.zip&#xFF0C;</li>
+<li>&#x90E8;&#x7F72;&#x65B9;&#x6CD5;&#x5982;&#x4E0B;&#xFF1A;</li>
+<li><a href="http://mars.baidu.com/Monitor/Channel.html#create" target="_blank">http://mars.baidu.com/Monitor/Channel.html#create</a></li>
+<li>&#x9009;&#x62E9;&#x5C0F;&#x5DE5;&#x5177;&#x90E8;&#x7F72;&#xFF0C;&#x586B;&#x5199;&#x5C0F;&#x5DE5;&#x5177;&#x4E0B;&#x8F7D;&#x94FE;&#x63A5;&#xFF0C;&#x8FDB;&#x884C;&#x521B;&#x5EFA;&#x3002;
+<img src="http://7xif3g.com1.z0.glb.clouddn.com/&#x5C0F;&#x5DE5;&#x5177;&#x90E8;&#x7F72;.png" alt=""></li>
+</ul>
+<h3 id="%E5%A6%82%E6%9E%9C%E6%98%AFbav%E7%9A%84%E6%89%93%E5%8C%85%E9%93%BE%E6%8E%A5%EF%BC%8C%E5%A6%82%EF%BC%9A">&#x5982;&#x679C;&#x662F;BAV&#x7684;&#x6253;&#x5305;&#x94FE;&#x63A5;&#xFF0C;&#x5982;&#xFF1A;</h3>
+<ul>
+<li><a href="http://172.17.194.10:8088/Build/bav_new_trunk/5.7.0.133878_504&#xFF0C;&#x90E8;&#x7F72;&#x65B9;&#x6CD5;&#x5982;&#x4E0B;&#xFF1A;" target="_blank">http://172.17.194.10:8088/Build/bav_new_trunk/5.7.0.133878_504&#xFF0C;&#x90E8;&#x7F72;&#x65B9;&#x6CD5;&#x5982;&#x4E0B;&#xFF1A;</a></li>
+<li><p>&#x5C06;&#x6253;&#x5305;&#x94FE;&#x63A5;&#x8F6C;&#x6362;&#x4E3A;jenkins&#x5730;&#x5740;&#xFF0C;&#x52A0;&#x4E0A;&#x9700;&#x8981;&#x6D4B;&#x8BD5;&#x7684;&#x5C0F;&#x5DE5;&#x5177;&#x540D;&#x79F0;&#xFF0C;&#x5982;&#xFF1A;
+<a href="http://ftp.jenkins.baidu.com/newns/bav_copy_products/bav_new_trunk/504/output/8A73A249-C3BE-401A-8335-A832080931D3_1.0.3.2_BavPluginRemove.zip" target="_blank">http://ftp.jenkins.baidu.com/newns/bav_copy_products/bav_new_trunk/504/output/8A73A249-C3BE-401A-8335-A832080931D3_1.0.3.2_BavPluginRemove.zip</a></p>
+</li>
+<li><p>&#x6253;&#x5F00;&#x90E8;&#x7F72;&#x94FE;&#x63A5;&#xFF1A;<a href="http://bls.baidu.com/pack/" target="_blank">http://bls.baidu.com/pack/</a>
+-&#x9009;&#x62E9;&#x5C0F;&#x5DE5;&#x5177;&#xFF0C;&#x586B;&#x5199;&#x5C0F;&#x5DE5;&#x5177;&#x5730;&#x5740;&#xFF0C;&#x9009;&#x62E9;&#x6D4B;&#x8BD5;&#x7684;BAV&#x7248;&#x672C;&#xFF0C;&#x9009;&#x62E9;&#x81EA;&#x52A8;&#x90E8;&#x7F72;&#x5230;&#x6D4B;&#x8BD5;&#x670D;&#x52A1;&#x5668;&#x3002;
+<img src="http://7xif3g.com1.z0.glb.clouddn.com/BAV&#x6253;&#x5305;&#x5DE5;&#x5177;.png" alt="">
+<img src="http://7xif3g.com1.z0.glb.clouddn.com/&#x81EA;&#x52A8;&#x90E8;&#x7F72;&#x5230;&#x6D4B;&#x8BD5;&#x670D;&#x52A1;&#x5668;.png" alt=""></p>
+</li>
+</ul>
+<h3 id="%E5%A6%82%E6%9E%9C%E6%B2%A1%E6%9C%89%E9%93%BE%E6%8E%A5%EF%BC%8C%E5%8F%AA%E6%9C%89toolsserver-zip%E5%8C%85%EF%BC%8C%E5%8F%AF%E4%BB%A5%E6%89%8B%E5%8A%A8%E9%83%A8%E7%BD%B2%E6%B5%8B%E8%AF%95%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82%E6%96%B9%E6%B3%95%E5%A6%82%E4%B8%8B%EF%BC%9A">&#x5982;&#x679C;&#x6CA1;&#x6709;&#x94FE;&#x63A5;&#xFF0C;&#x53EA;&#x6709;ToolsServer.zip&#x5305;&#xFF0C;&#x53EF;&#x4EE5;&#x624B;&#x52A8;&#x90E8;&#x7F72;&#x6D4B;&#x8BD5;&#x670D;&#x52A1;&#x5668;&#x3002;&#x65B9;&#x6CD5;&#x5982;&#x4E0B;&#xFF1A;</h3>
+<pre><code>    ssh work@ 10.242.108.23    
+    pw&#xFF1A;bavmm@baidu
+</code></pre><h4 id="%E5%A4%A7%E9%99%86%E6%B5%8B%E8%AF%95%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2">&#x5927;&#x9646;&#x6D4B;&#x8BD5;&#x670D;&#x52A1;&#x5668;&#x90E8;&#x7F72;</h4>
+<ol>
+<li><p>&#x628A;&#x5C0F;&#x5DE5;&#x5177;&#x5B89;&#x88C5;&#x5305;&#x4E0A;&#x4F20;&#x5230;&#x76EE;&#x5F55;&#xFF1A;  </p>
+<ul>
+<li>/home/work/apache-noroot/cgi-bin-secure-update-sd/tool_update/data&#xFF0C;</li>
+<li>&#x4F7F;&#x7528;cd&#x547D;&#x4EE4;&#x8FDB;&#x5165;&#x8FD9;&#x4E2A;&#x76EE;&#x5F55;&#x540E;&#xFF0C;&#x5148;&#x67E5;&#x770B;&#x76EE;&#x5F55;&#x5185;&#x662F;&#x4E0D;&#x662F;&#x5DF2;&#x7ECF;&#x6709;&#x65E7;&#x7684;ToolsServer.zip&#x6587;&#x4EF6;&#xFF0C;&#x6709;&#x7684;&#x8BDD;&#x4F7F;&#x7528;rm ToolsServer.zip&#x5220;&#x9664;</li>
+<li>&#x8F93;&#x5165;rz -be&#xFF0C;&#x51FA;&#x73B0;UI&#x53EF;&#x63A7;&#x5F39;&#x7A97;&#xFF0C;&#x9009;&#x62E9;&#x672C;&#x5730;&#x7684;&#x76EE;&#x6807;&#x6587;&#x4EF6;ToolsServer.zip</li>
+</ul>
+</li>
+<li><p>&#x6267;&#x884C;&#x90E8;&#x7F72;&#x811A;&#x672C;&#xFF1A;<br>&#x76F4;&#x63A5;&#x6572;&#x6253;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code>/home/work/apache-noroot/cgi-bin-secure-update-sd/tool_update/script/create_tool_config.sh cn
+</code></pre></li>
+</ol>
+<h4 id="%E5%9B%BD%E5%A4%96%E6%9C%BA%E5%99%A8%E9%83%A8%E7%BD%B2%EF%BC%9A">&#x56FD;&#x5916;&#x673A;&#x5668;&#x90E8;&#x7F72;&#xFF1A;</h4>
+<ol>
+<li>&#x628A;&#x5C0F;&#x5DE5;&#x5177;&#x5B89;&#x88C5;&#x5305;&#x4E0A;&#x4F20;&#x5230;&#x76EE;&#x5F55;&#xFF1A;/home/work/apache-noroot/cgi-bin-bav-update/tool_update/data</li>
+<li>&#x6267;&#x884C;&#x90E8;&#x7F72;&#x811A;&#x672C;&#xFF1A;<pre><code>/home/work/apache-noroot/cgi-bin-bav-update/tool_update/script/create_tool_config.sh hk
+</code></pre></li>
+</ol>
+<h3 id="%E6%B5%8B%E8%AF%95%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%E9%AA%8C%E8%AF%81%E6%96%B9%E6%B3%95">&#x6D4B;&#x8BD5;&#x670D;&#x52A1;&#x5668;&#x90E8;&#x7F72;&#x9A8C;&#x8BC1;&#x65B9;&#x6CD5;</h3>
+<h4 id="%E6%9F%A5%E7%9C%8B%E5%B0%8F%E5%B7%A5%E5%85%B7%E6%98%AF%E5%90%A6%E9%83%A8%E7%BD%B2%E6%88%90%E5%8A%9F%EF%BC%9A">&#x67E5;&#x770B;&#x5C0F;&#x5DE5;&#x5177;&#x662F;&#x5426;&#x90E8;&#x7F72;&#x6210;&#x529F;&#xFF1A;</h4>
+<ul>
+<li>&#x53CC;&#x51FB;&#x6253;&#x5F00;&#x9700;&#x8981;&#x90E8;&#x7F72;&#x7684;ToolsServer.zip\ToolsServer\ToolsUpdateRule.zip\ToolsUpdateRule\ToolsUpdateRule.ini&#x6587;&#x4EF6;</li>
+<li>&#x67E5;&#x770B;&#x5230;&#x91CC;&#x9762;&#x7684;&#x5347;&#x7EA7;&#x89C4;&#x5219;&#x5982;client_version = 5.2.*&#x5BF9;&#x5E94;&#x7684;tools_list = ToolsList_2014_10_10_17_10_26_0.xml</li>
+<li>&#x8BBF;&#x95EE;&#x7F51;&#x5740;&#xFF1A;<a href="http://update.sd.baidu.com/cgi-bin/get_bavtools_update_info.cgi?guid=TF645&amp;ProgramVersion=5.5.2.114912&amp;os=6&amp;ChannelName=web%7Cth%7Cofficial%7Cdirect&amp;IsPro=yes&amp;Ismanual=yes" target="_blank">http://update.sd.baidu.com/cgi-bin/get_bavtools_update_info.cgi?guid=TF645&amp;ProgramVersion=5.5.2.114912&amp;os=6&amp;ChannelName=web%7Cth%7Cofficial%7Cdirect&amp;IsPro=yes&amp;Ismanual=yes</a></li>
+<li>&#x5C06;&#x7F51;&#x5740;&#x4E2D;&#x7684;ProgramVersion&#x4FEE;&#x6539;&#x4E3A;&#x5347;&#x7EA7;&#x89C4;&#x5219;&#x91CC;&#x7684;client_version&#x540E;&#x518D;&#x8BBF;&#x95EE;&#xFF0C;&#x9875;&#x9762;&#x8FD4;&#x56DE;&#x5982;&#x4E0B;&#xFF1A;</li>
+</ul>
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt; 
+&lt;ServerRespond XmlVersion=&quot;1.0&quot;&gt;
+    &lt;UpdateTools Md5=&quot;0xf644072993c0e84ecde6b598158b3111&quot; NeedUpdate=&quot;Yes&quot; Size=&quot;1268&quot; 
+    Url=&quot;http://download.sd.baidu.com/baidu_tool/ToolsList_2014_10_10_17_10_26_0_******.xml&quot; /&gt; 
+&lt;/ServerRespond&gt;
+</code></pre><ul>
+<li>&#x4ECE;&#x8FD4;&#x56DE;&#x5185;&#x5BB9;&#x4E2D;&#x53EF;&#x4EE5;&#x627E;&#x5230;ToolsList_2014_10_10_17_10_26_0&#xFF0C;&#x4E0E;&#x89C4;&#x5219;&#x6587;&#x4EF6;&#x4E2D;&#x7684;tools_list&#x5339;&#x914D;&#xFF0C;&#x8BC1;&#x660E;&#x90E8;&#x7F72;&#x6210;&#x529F;</li>
+<li>&#x5728;ini&#x6587;&#x4EF6;&#x4E2D;&#x518D;&#x627E;&#x4E00;&#x4E2A;client_version&#x548C;&#x5176;&#x5BF9;&#x5E94;&#x7684;tools_list&#xFF0C;&#x91CD;&#x590D;&#x524D;&#x9762;&#x7684;&#x65B9;&#x6CD5;&#x8FDB;&#x884C;&#x9A8C;&#x8BC1;&#xFF0C;&#x5339;&#x914D;&#x5C31;&#x8BC1;&#x660E;&#x90E8;&#x7F72;&#x6210;&#x529F;</li>
+</ul>
+<h2 id="%E5%B0%8F%E5%B7%A5%E5%85%B7%E5%8D%87%E7%BA%A7%E9%AA%8C%E8%AF%81">&#x5C0F;&#x5DE5;&#x5177;&#x5347;&#x7EA7;&#x9A8C;&#x8BC1;</h2>
+<ol>
+<li>&#x82E5;&#x662F;&#x7EBF;&#x4E0B;&#x6A21;&#x5757;&#x5347;&#x7EA7;&#x9A8C;&#x8BC1;&#xFF0C;&#x9700;&#x8981;&#x914D;&#x7F6E;hosts&#x3002;<pre><code>10.242.108.23 download.antivirus.baidu.com
+10.242.108.23 dl2.bav.baidu.com
+10.242.108.23 dl-vip.bav.baidu.com
+10.242.108.23 updown.bav.baidu.com
+10.242.108.23 update.bav.baidu.com
+10.242.108.23 download.bav.baidu.com 
+10.242.108.23 update.sd.baidu.com
+10.242.108.23    ownload.sd.baidu.com
+</code></pre></li>
+<li>&#x5B89;&#x88C5;BAV&#x3002;</li>
+<li>&#x5173;&#x95ED;&#x5C0F;&#x7EA2;&#x4F1E;&#x5F15;&#x64CE;&#xFF0C;Kill &#x5347;&#x7EA7;&#x8FDB;&#x7A0B;&#x3002;</li>
+<li>&#x4FEE;&#x6539;config.ini&#xFF1A;<pre><code> ToolsLastUpdateTime=0
+ BackgroundUpdating=0
+</code></pre></li>
+<li>&#x9000;&#x51FA;&#x6258;&#x76D8;&#x3002;</li>
+<li>&#x6253;&#x5F00;&#x4E3B;&#x754C;&#x9762;&#xFF0C;&#x5BF9;&#x5404;&#x4E2A;&#x5C0F;&#x5DE5;&#x5177;&#x8FDB;&#x884C;&#x4E0B;&#x8F7D;&#x3001;&#x4F7F;&#x7528;&#xFF0C;&#x6BCF;&#x4E2A;&#x5C0F;&#x5DE5;&#x5177;&#x90FD;&#x80FD;&#x6B63;&#x5E38;&#x4F7F;&#x7528;&#x3002;</li>
+</ol>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="./模块升级测试.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 模块升级测试"><i class="fa fa-angle-left"></i></a>
+        
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-disqus/plugin.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2},"disqus":{"shortName":"bavdoc"}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
