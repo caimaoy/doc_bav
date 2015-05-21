@@ -2,4 +2,4 @@
 
 ##提供BAV各种升级需要文档
 
-- [download_link](http://www.caimaoy.com)
+- [download_link](https://www.gitbook.com/download/pdf/book/caimaoy/doc_bav)
