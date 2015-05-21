@@ -66,7 +66,7 @@ __验证目的：保证低版本升级到目标版本，BAV能正常使用，没
 10.242.108.23 dl-vip.bav.baidu.com
 10.242.108.23 updown.bav.baidu.com
 10.242.108.23 update.bav.baidu.com
-10.242.108.23 download.bav.baidu.com 
+10.242.108.23 download.bav.baidu.com
 10.242.108.23 update.sd.baidu.com
 10.242.108.23 download.sd.baidu.com
 ```

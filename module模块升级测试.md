@@ -28,9 +28,9 @@ ftp地址:ftp://10.242.108.23:/home/work/luoman/tools
 10.242.108.23 dl-vip.bav.baidu.com
 10.242.108.23 updown.bav.baidu.com
 10.242.108.23 update.bav.baidu.com
-10.242.108.23 download.bav.baidu.com 
+10.242.108.23 download.bav.baidu.com
 10.242.108.23 update.sd.baidu.com
-10.242.108.23	ownload.sd.baidu.com
+10.242.108.23 download.sd.baidu.com
 ```
 2.	安装BAV。
 3.	关闭小红伞引擎，Kill 升级进程。
